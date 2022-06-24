@@ -18,7 +18,7 @@ int main()
 			for (int asciiChar = 33; asciiChar < 127; asciiChar++) { // Loop through ascii characters
 				SetConsoleCursorPosition(hStdOut, csbi.dwCursorPosition); // Set cursor position
 				cout << char(asciiChar); // Print character
-				Sleep(70); // Wait 200ms
+				Sleep(70); // Wait 70ms
 			}
 		}
 	}
